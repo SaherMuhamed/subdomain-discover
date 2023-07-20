@@ -1,0 +1,6 @@
+mail.google.com
+www.google.com
+blog.google.com
+m.google.com
+mobile.google.com
+search.google.com
