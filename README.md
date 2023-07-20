@@ -19,9 +19,9 @@ The Subdomain Scanner is a simple Python script that takes a target URL and a wo
 
 ## Usage
 To run the Subdomain Scanner, use the following command format:
-    ```commandline
-    python3 subdomains_crawler.py -u <target_url> -w <wordlist_file> [-s <output_file>]
-    ```
+```commandline
+python3 subdomains_crawler.py -u <target_url> -w <wordlist_file> [-s <output_file>]
+```
 
 ## Options
 - The Subdomain Scanner supports the following options:
