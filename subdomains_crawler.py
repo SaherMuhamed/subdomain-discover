@@ -38,7 +38,7 @@ try:
             test_url = f'{line.strip()}.{options.target_url}'
             response = make_request(url=test_url)
             if response:
-                print(f'[+] Discovered Subdomain ==> {test_url} | Status Code {response.status_code} '
+                print(f'[+] Discovered Subdomain ==> http://{test_url} | Status Code {response.status_code} '
                       f'| TTL {round(response.elapsed.microseconds * 0.001, 2)} ms')
                 if options.output_file:
                     with open(options.output_file, "a") as f:
