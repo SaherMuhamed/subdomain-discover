@@ -37,9 +37,10 @@ python3 subdomain_crawler.py -u <target_url> -w <wordlist_file>
 
 ## Key Features
 1. **Wordlist-Based Subdomain Generation:** The script takes a user-provided wordlist containing domain names and appends each word to the target URL, creating potential subdomains to scan.
-2. **HTTP Request Validation:** The Subdomain Scanner sends HTTP requests to the generated subdomains and validates their responsiveness. If a subdomain responds with a successful HTTP status code (2xx), it is considered a discovered subdomain.
-3. **Real-Time Display:** During the scanning process, the script displays real-time updates, showing each discovered subdomain along with its status code and response time.
+
+3. **HTTP Request Validation:** The Subdomain Scanner sends HTTP requests to the generated subdomains and validates their responsiveness. If a subdomain responds with a successful HTTP status code (2xx), it is considered a discovered subdomain.
+
+5. **Real-Time Display:** During the scanning process, the script displays real-time updates, showing each discovered subdomain along with its status code and response time.
 
 ## Screenshots
-![](screenshots/Screenshot_2023-07-20_21-48-48.png)
-![](screenshots/Screenshot_2023-07-20_21-50-37.png)
+![](https://github.com/SaherMuhamed/subdomain-discover/blob/master/screenshots/Screenshot%20from%202023-09-20%2014-11-04.png)
