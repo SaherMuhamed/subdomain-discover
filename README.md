@@ -1,4 +1,4 @@
-# Website Subdomain Finder
+# Website Subdomain Discover
 This is a Python script that scans for subdomains of a target website using a wordlist of domain names.
 
 ## Table of Contents
