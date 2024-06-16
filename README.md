@@ -27,6 +27,7 @@ python3 subdomain_crawler.py -u <target_url> -w <wordlist_file>
 - The Subdomain Scanner supports the following options:
     - `-u, --url`: (required) Specifies the target URL of the website for subdomain scanning.
     - `-w, --wordlist`: (required) Specifies the wordlist file in .txt format containing domain names for subdomain generation.
+    - `-t, --thread`: (optional) Specifies the number of thread to work with.
 
 ## Example
 - To scan for subdomains of the target website `example.com` using the wordlist `wordlist.txt`, run the following command:
