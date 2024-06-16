@@ -1,4 +1,9 @@
 # Website Subdomain Discover
+
+<p align="center">
+  <img src="assets/www.ico" />
+</p>
+
 This is a Python script that scans for subdomains of a target website using a wordlist of domain names.
 
 ## Table of Contents
