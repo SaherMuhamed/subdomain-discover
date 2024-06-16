@@ -6,15 +6,6 @@
 
 This is a Python script that scans for subdomains of a target website using a wordlist of domain names.
 
-## Table of Contents
-- <a href="https://github.com/SaherMuhamed/subdomain-discover#description">Description</a>
-- <a href="https://github.com/SaherMuhamed/subdomain-discover#requirements">Requirements</a>
-- <a href="https://github.com/SaherMuhamed/subdomain-discover#usage">Usage</a>
-- <a href="https://github.com/SaherMuhamed/subdomain-discover#options">Options</a>
-- <a href="https://github.com/SaherMuhamed/subdomain-discover#example">Example</a>
-- <a href="https://github.com/SaherMuhamed/subdomain-discover#screenshots">Screenshots</a>
-- <a href="https://github.com/SaherMuhamed/subdomain-discover#description">Key Features</a>
-
 ## Description
 The Subdomain Scanner is a simple Python script that takes a target URL and a wordlist of domain names as input. It then appends each word in the wordlist to the target URL to create potential subdomains and sends HTTP requests to check if these subdomains are valid. If a subdomain responds with a successful HTTP status code (2xx), it is considered a discovered subdomain, and its details are printed to the console.
 
