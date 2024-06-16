@@ -47,6 +47,11 @@ python3 subdomain_crawler.py -u <target_url> -w <wordlist_file>
 ## Screenshots
 ![](https://github.com/SaherMuhamed/subdomain-discover/blob/master/screenshots/Screenshot_2024-06-16.png)
 
+**Note:** If you want to see only the successes, since you used `sys.stderr` to write the `x` and `.` characters, invoke the script and redirect `stderr` to `/dev/null` so that only files you found are displayed on the console
+```commandline
+python3 subdomain_crawler.py -u <target_url> -w <wordlist> 2> /dev/null
+```
+
 ## Important Note:
 
 - Please ensure that you have proper authorization to scan and test the target website. Unauthorized scanning of websites or systems is illegal and unethical. Always obtain explicit permission from the website owner before performing any security assessments.
