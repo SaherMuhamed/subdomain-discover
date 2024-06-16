@@ -31,6 +31,7 @@ python3 subdomain_crawler.py -u <target_url> -w <wordlist_file>
 
 ## Example
 - To scan for subdomains of the target website `example.com` using the wordlist `wordlist.txt`, run the following command:
+
     ```commandline
     python3 subdomain_crawler.py -u example.com -w wordlist.txt
     ```
@@ -48,9 +49,9 @@ python3 subdomain_crawler.py -u <target_url> -w <wordlist_file>
 
 ## Important Note:
 
-Please ensure that you have proper authorization to scan and test the target website. Unauthorized scanning of websites or systems is illegal and unethical. Always obtain explicit permission from the website owner before performing any security assessments.
+- Please ensure that you have proper authorization to scan and test the target website. Unauthorized scanning of websites or systems is illegal and unethical. Always obtain explicit permission from the website owner before performing any security assessments.
 <br><br>
-For legal and responsible use of this script, it is recommended to target websites you own or have explicit permission to test for security vulnerabilities
+- For legal and responsible use of this script, it is recommended to target websites you own or have explicit permission to test for security vulnerabilities
 
 ### Updates
 - `v1.1.0 - 16/6/2024`:
